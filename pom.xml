@@ -24,7 +24,7 @@
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>23</version>
-    <relativePath />
+    <relativePath/>
     <!-- no parent resolution -->
   </parent>
   <groupId>org.apache.zookeeper</groupId>
@@ -343,7 +343,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -356,7 +356,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -369,7 +369,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -382,7 +382,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -395,7 +395,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
@@ -444,7 +444,7 @@
     <kerby.version>2.0.0</kerby.version>
     <bouncycastle.version>1.60</bouncycastle.version>
     <commons-collections.version>4.4</commons-collections.version>
-    <dropwizard.version>4.1.12.1</dropwizard.version>
+    <dropwizard.version>4.1.14</dropwizard.version>
     <spotbugsannotations.version>4.0.2</spotbugsannotations.version>
     <checkstyle.version>8.17</checkstyle.version>
     <enforcer.version>3.0.0-M3</enforcer.version>
@@ -845,8 +845,8 @@
             <configuration>
               <exportAntProperties>true</exportAntProperties>
               <target>
-                <property environment="env" />
-                <exec executable="hostname" outputproperty="host.name" />
+                <property environment="env"/>
+                <exec executable="hostname" outputproperty="host.name"/>
               </target>
             </configuration>
           </execution>
